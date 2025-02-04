@@ -1,6 +1,6 @@
-package j8.ocp.java_stream_api;
+package classes;
 
-class Person{
+class Person {
     private String firstName, lastName;
     private Integer age;
 
@@ -26,5 +26,5 @@ class Person{
     public String toString() {
         return "Person{" + "firstName=" + firstName + ", lastName=" + lastName + ", age=" + age + '}';
     }
-    
+
 }
